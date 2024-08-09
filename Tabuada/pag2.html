@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body onload="carregar()">
+    <header>
+            <div >
+                <h1>Super Tabuada</h1>
+            </div>
+    </header>
+    <section>
+        <div id="form">
+            <h2>Tabuada</h2>
+            <p>
+                <label for="num">Digite um número:</label>
+                <input type="number" name="num" id="num">
+                
+            </p>
+            <p id="submit">
+                 <input type="submit" name="gerar" id="gerar" value="Gerar tabuada" onclick="clicar()">
+            </p>
+            <p>
+                <select name="sel" id="sel" size="10">
+                    <option>Digite um número acima...</option>
+                </select>
+            </p>
+            </p>
+            <p id="pag2">
+                <a href="../Contador/index.html">Ir para Contador // </a>
+                <a href="../Analisador/pag3.html">Ir para o Analisador</a>
+            </p>
+
+        </div>
+    </section>
+    <footer>
+        <div >
+            <p>Feito na aula de Javascript do CursoemVideo</p>
+        </div>
+    </footer>
+    <script src="script2.js"></script>
+    
+    
+</body>
+</html>

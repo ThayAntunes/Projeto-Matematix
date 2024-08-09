@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">
+    <header>
+            <div >
+                <h1>Super Contador</h1>
+            </div>
+    </header>
+    <section>
+        <div id="form">
+            <h2>Vamos contar</h2>
+            <p>
+                <label for="ini">Início:</label>
+                <input type="number" name="ini" id="ini">
+                
+            </p>
+            <p id="pad">
+                <label for="fim">Fim:</label>
+                <input type="number" name="fim" id="fim">
+            </p>
+            <p>
+                <label for="pass">Passo:</label>
+                <input type="number" name="pass" id="pass">
+            </p>
+            <p id="submit">
+                 <input type="submit" name="contar" id="contar" value="Contar" onclick="contar()">
+            </p>
+            <p id="res">
+                Preparando a contagem...
+            </p>
+            <p id="pag2">
+                <a href="../Tabuada/pag2.html">Ir para Tabuada // </a>
+                <a href="../Analisador/pag3.html">Ir para o Analisador</a>
+            </p>
+
+        </div>
+    </section>
+    <footer>
+        <div >
+            <p>Feito na aula de Javascript do CursoemVideo</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
